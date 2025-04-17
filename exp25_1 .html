@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>pranita Darade</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 15px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 26px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 18px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .menu a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+    }
+
+    section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+
+    .section-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 40px;
+      border-radius: 15px;
+      width: 85%;
+      max-width: 1000px;
+    }
+
+    h1, h2 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    ul, p {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.8;
+      text-align: left;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    /* Section Background Images */
+    #home {
+	      background-image:url('https://en.idei.club/uploads/posts/2023-06/1686787518_en-idei-club-p-portfolio-background-dizain-krasivo-1.jpg?auto=format&fit=crop&w=1600&q=80');?auto=format&fit=crop&w=1600&q=80');
+		  }
+		  #education {
+	         background-image: url('https://thumbs.dreamstime.com/b/education-background-frame-school-student-office-supplies-school-student-s-stationery-glasses-alarm-clock-education-background-119737899.jpg?auto=format&fit=crop&w=1600&q=80');
+    }
+
+    #skills {
+      background-image: url('https://static.vecteezy.com/system/resources/thumbnails/012/859/729/small/success-and-business-target-concept-determine-organizational-efficiency-improvement-strategies-planning-growth-goals-in-the-industry-human-hand-stacking-wooden-blocks-free-photo.jpg?auto=format&fit=crop&w=1600&q=80');
+    }
+
+    #projects {
+      background-image: url('https://assets.marketing.quickbase.com/blog/_1320x880_crop_center-center_82_line/why-portfolio-software-blog-header.jpg?auto=format&fit=crop&w=1600&q=80');
+    }
+
+    #experience {
+      background-image: url('https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=1600&q=80');
+    }
+
+    #contact {
+      background-image: url('https://www.shutterstock.com/image-photo/website-page-contact-us-email-600nw-1958537320.jpg?auto=format&fit=crop&w=1600&q=80');
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .menu a {
+        display: block;
+        margin: 10px 0;
+      }
+      .section-content {
+        width: 95%;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Portfolia</div>
+    <div class="menu">
+      <a href="#home">Home</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="section-content">
+      <h1>I am pranita darade</h1>
+      <p>A Computer Engineering Student</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="section-content">
+      <h2>Education</h2>
+      <ul>
+        <li><strong> Studying Diploma in Computer Technology</strong> – MSBTE (2025)</li>
+        <li><strong>SSC</strong> – Maharashtra State Board, Pune (2024)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-content">
+      <h2>Skills</h2>
+      <ul>
+        <li>Comprehension with critical Thinking.</li>
+        <li>Dancing</li>
+		  <li>Communication & Presentation</li>
+
+        <li>Essay writing</li>
+        <li>Drawing</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-content">
+      <h2>Projects</h2>
+      <ul>
+	  <li><strong>IOT based smoke detection. </strong> smoke detetion Using arduino</li>
+        <li><strong>Online ordering system using arduino products</li>
+        
+        <li><strong>smoke detection </strong> arduino using C Language.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-content">
+      <h2>Experience</h2>
+      <ul>
+       <center> <li><strong>NO EXPERIENCE</strong></li></center>
+       
+      </ul>
+ 
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-content">
+      <h2>Contact</h2>
+      <ul>
+        <li><strong>Phone:</strong> +91 9359309484</li>
+        <li><strong>Email:</strong> pranita@gmail.com</li>
+        <li><strong>Languages:</strong> English, Hindi, Marathi</li>
+      </ul>
+      <p>I am passionate about studying and continuously learning new technologies in computer engineering.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; pranita.p.Darade.All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
